@@ -9,7 +9,6 @@ export default $config({
       home: "aws",
       providers: {
         aws: {
-          // profile: "asu-iden-ad-sandbox",
           profile: "asu-frog-sandbox",
           region: "us-west-2",
         },

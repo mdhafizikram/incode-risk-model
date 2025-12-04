@@ -1,6 +1,7 @@
 
 # SST
 .sst
+sst-env.d.ts
 
 # Python
 __pycache__/
