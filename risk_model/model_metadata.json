@@ -1,0 +1,34 @@
+{
+  "feature_order": [
+    "nameRiskLevel",
+    "phoneLevel",
+    "addressRiskLevel",
+    "phoneEmailMatch",
+    "phoneDobMatch",
+    "phoneCityMatch",
+    "phoneZipcodeMatch",
+    "phoneStateMatch",
+    "phoneNameMatch",
+    "phoneAddressMatch",
+    "overallLevel",
+    "campus"
+  ],
+  "categorical_features": [
+    "nameRiskLevel",
+    "phoneLevel",
+    "addressRiskLevel",
+    "phoneEmailMatch",
+    "phoneDobMatch",
+    "phoneCityMatch",
+    "phoneZipcodeMatch",
+    "phoneStateMatch",
+    "phoneNameMatch",
+    "phoneAddressMatch",
+    "overallLevel",
+    "campus"
+  ],
+  "risk_threshold": 0.4,
+  "fraud_cutoff": 0.4,
+  "non_fraud_cutoff": 0.09,
+  "version": "catboost-risk-v1"
+}

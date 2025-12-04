@@ -1,0 +1,8 @@
+[project]
+name = "incode-risk-model"
+version = "0.1.0"
+description = "CatBoost fraud risk model deployment via SST"
+requires-python = ">=3.11"
+
+[tool.uv.workspace]
+members = ["risk_model"]
